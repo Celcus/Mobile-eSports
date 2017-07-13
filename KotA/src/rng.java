@@ -6,10 +6,8 @@ public class KotA_Decision{
         int gen = (int)(Math.random()*2+1);
         if(gen == 1){
             return "Heads";
-        }else if(gen == 2){
+        }if(gen == 2){
             return "Tails";
-        }else{
-            return "";
         }
     }
     
